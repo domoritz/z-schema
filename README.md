@@ -8,7 +8,7 @@
 [![NPM](https://nodei.co/npm/z-schema.png?downloads=true&downloadRank=true)](https://nodei.co/npm/z-schema/)
 
 - version 3.0 runs also in the browsers now, run tests yourself [here](https://rawgit.com/zaggino/z-schema/master/test/SpecRunner.html)
-
+f
 #Topics
 
 - [Usage](#usage)
@@ -201,7 +201,7 @@ var valid = validator.validate(data, schemas[2]);
 
 ##Register a custom format
 
-You can register any format of your own, sync validator function should always respond with boolean:
+You can register any format of your own. Sync validator function should always respond with boolean:
 
 ```javascript
 ZSchema.registerFormat("xstring", function (str) {
